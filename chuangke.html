@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <title>火眼星链航天创客中心 · 手机笔记</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #f0f4fa;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            padding: 16px;
+        }
+        .note-card {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 32px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+            overflow: hidden;
+            padding: 24px 20px 36px;
+        }
+        h1 {
+            font-size: 26px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #0b2b4b;
+        }
+        .badge {
+            background-color: #eef2ff;
+            color: #1e4b7a;
+            font-size: 13px;
+            font-weight: 500;
+            padding: 4px 12px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-bottom: 12px;
+        }
+        .sub {
+            color: #5b6e8c;
+            font-size: 14px;
+            border-left: 3px solid #2d7f9e;
+            padding-left: 12px;
+            margin: 12px 0 16px;
+        }
+        .image-placeholder {
+            background-color: #eef2f7;
+            border-radius: 20px;
+            padding: 20px 12px;
+            text-align: center;
+            margin: 16px 0;
+            color: #6c86a3;
+            font-size: 14px;
+            border: 1px dashed #b9cfeb;
+        }
+        .section-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 24px 0 12px 0;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #e2e8f0;
+            color: #0e3b5c;
+        }
+        .info-row {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin: 12px 0;
+        }
+        .info-tag {
+            background-color: #f8fafc;
+            padding: 6px 14px;
+            border-radius: 30px;
+            font-size: 14px;
+            color: #1e4870;
+        }
+        .list-item {
+            margin: 10px 0;
+            padding-left: 8px;
+            border-left: 3px solid #5bacd4;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #f9fbfd;
+            border-radius: 20px;
+            overflow: hidden;
+            margin: 12px 0;
+            font-size: 13px;
+        }
+        th, td {
+            padding: 10px 8px;
+            text-align: left;
+            border-bottom: 1px solid #dee4ec;
+        }
+        th {
+            background-color: #e6f0f9;
+            font-weight: 600;
+        }
+        .footer {
+            margin-top: 28px;
+            text-align: center;
+            font-size: 12px;
+            color: #8ba0bc;
+            border-top: 1px solid #ecf3f9;
+            padding-top: 20px;
+        }
+        /* ------- 移动端优化 --------- */
+        @media (max-width: 580px) {
+            body {
+                padding: 4px;
+            }
+            .note-card {
+                padding: 13px 3px 20px 3px;
+                border-radius: 16px;
+            }
+            h1 {
+                font-size: 20px;
+            }
+            .section-title {
+                font-size: 16px;
+            }
+            th, td {
+                padding: 7px 4px;
+                font-size: 12px;
+            }
+            .info-tag {
+                padding: 5px 8px;
+                font-size: 13px;
+            }
+        }
+        @media (max-width: 400px) {
+            .note-card {
+                max-width: 99vw;
+                padding: 6px 1px 10px 1px;
+            }
+            .section-title, h1 {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="note-card">
+    <div class="badge">✨ 航天科普 · 青少年创客标杆</div>
+    <h1>🚀 火眼星链航天创客中心</h1>
+    <div class="sub">青少年星链实验室 + 火眼位置联合打造 · 2026.2.25 启幕<br>📍 天津河西区 · 陈塘科创园</div>
+
+    <!-- 可替换为真实图片 -->
+    <img src="11.jpg" style="width:100%; border-radius:20px; margin:16px 0;">
+
+    <div class="section-title">📌 基本信息</div>
+    <div class="info-row">
+        <span class="info-tag">📐 2500㎡</span>
+        <span class="info-tag">🧭 测控中心+应用中心+研学</span>
+        <span class="info-tag">📮 300201</span>
+    </div>
+
+    <div class="section-title">✨ 核心优势</div>
+    <div class="list-item">🔭 “火眼天星座” — 40+低轨卫星 · 厘米级定位</div>
+    <div class="list-item">🎓 院士+高校+“一带一路”科创少年星计划资源</div>
+    <div class="list-item">🧠 “看·学·做·创” 全流程体验</div>
+
+    <div class="section-title">🏢 功能区域</div>
+    <div class="list-item">🪐 航天科普展厅（火箭模型/3D空间站/智慧城市沙盘）</div>
+    <div class="list-item">📡 卫星测控模拟区（实操观测低轨卫星）</div>
+    <div class="list-item">🧪 火箭实验室 + 航天器AI实验室</div>
+    <div class="list-item">🛠️ 创客中心（3D打印/智能制造设备）</div>
+    <!--  <div class="image-placeholder">🖼️ [ 测控区/创客教室 实拍图 ]</div>   -->
+    <!-- 上下排列两张图片，每张下方带小标题 -->
+    <div style="margin: 16px 0;">
+        <!-- 第一张：测控模拟区 -->
+        <div style="margin-bottom: 16px;">
+            <img src="096A1712.JPG" style="width:100%; border-radius:20px;">
+            <div style="text-align:center; font-size:12px; color:#6c86a3; margin-top:6px;">测控模拟区实拍</div>
+        </div>
+        <!-- 第二张：创客教室 -->
+        <div>
+            <img src="096A2032.JPG" style="width:100%; border-radius:20px;">
+            <div style="text-align:center; font-size:12px; color:#6c86a3; margin-top:6px;">创客教室一角</div>
+        </div>
+    </div>
+
+    <div class="section-title">🧪 研学项目</div>
+    <table>
+        <thead><tr><th>类型</th><th>对象</th><th>时长</th><th>核心内容</th></tr></thead>
+        <tbody>
+            <tr><td>基础营</td><td>小学3~6</td><td>1天</td><td>科普参观+手工制作</td></tr>
+            <tr><td>进阶营</td><td>初中1~3</td><td>2天1夜</td><td>卫星测控+火箭组装+AI编程</td></tr>
+            <tr><td>高阶营</td><td>高中1~3</td><td>3天2夜</td><td>卫星设计+课题报告+专家讲座</td></tr>
+        </tbody>
+    </table>
+    <div class="list-item">🎯 可定制学校/社团专属方案</div>
+
+    <div class="section-title">🛠️ 创客项目</div>
+    <div class="list-item">🛰️ 卫星模型 · 火箭创新 · 航天AI · 文创设计</div>
+    <div class="list-item">⏱️ 体验课(2-3h) / 训练营(1-3月) / 社团合作</div>
+    <div class="list-item">🏆 导师+工业级设备+赛事对接+成果孵化</div>
+    <!-- 学生作品实拍：请将 "学生作品.jpg" 改为您自己的照片文件名 -->
+    <img src="2.jpg" style="width:100%; border-radius:20px; margin:16px 0;">
+
+    <div class="section-title">📞 服务与使命</div>
+    <div class="list-item">🔹 服务：研学·创客·社团·赛事·国际交流·定制活动</div>
+    <div class="list-item">🌟 使命：培育空天后备人才 · 产教融合 · 国际人文交流</div>
+
+    <div class="footer">📍 天津市河西区陈塘科创园（火眼星链航天创客中心）<br>📅 2026年3月21日首批研学开营</div>
+</div>
+</body>
+</html>
